@@ -1,0 +1,28 @@
+@tailwind utilities;
+
+@layer utilities{
+    .bg-linear{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #5B5A59 100%);
+    }
+    .bg-footer{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #f8f3ee 100%);
+    }
+    .layer{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.5);
+    }
+    .sidebar-active{
+        left:0;
+        transition:825ms
+    }
+    .sidebar{
+        left:-100%;
+        transition:625ms
+    }
+    .text-shadow{
+        text-shadow: 6px 6px #989898, 12px 12px #FFBAAB;
+
+      }
+
+  }
